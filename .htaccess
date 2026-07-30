@@ -1,0 +1,62 @@
+# --- block sensitive files (added for exposure fix) ---
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "^(composer\.(json|lock)|package(-lock)?\.json|artisan|error_log)$">
+    Require all denied
+</FilesMatch>
+
+RedirectMatch 404 /\.git
+# --- end block ---
+
+
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteRule ^blogs/show/14$ /blog/let-us-be-your-guide-on-your-way-to-success-as-we-are-ready-every-time-everywhere [L,R=301]
+    RewriteRule ^blogs/show/15$ /blog/food-is-our-love-language [L,R=301]
+    RewriteRule ^blogs/show/16$ /blog/from-arrival-to-departure-from-day-to-night-we-are-there-for-you [L,R=301]
+    RewriteRule ^blogs/show/17$ /blog/event-for-two-or-a-thousand-memory-for-a-lifetime [L,R=301]
+    RewriteRule ^blogs/show/18$ /blog/let-us-bear-the-light-of-the-shining-path-to-your-destination [L,R=301]
+    RewriteRule ^blogs/show/19$ /blog/let-us-be-your-navigator-from-stress-to-relief [L,R=301]
+    RewriteRule ^blogs/show/20$ /blog/what-makes-mice-hospitality-the-choice-for-any-of-your-events-tip-not-just-passion [L,R=301]
+    RewriteRule ^blogs/show/30$ /blog/what-is-mice [L,R=301]
+    RewriteRule ^blogs/show/31$ /blog/hybrid-events [L,R=301]
+    RewriteRule ^blogs/show/32$ /blog/corporate-events [L,R=301]
+    RewriteRule ^blogs/show/33$ /blog/destination-management-company-dmc [L,R=301]
+    RewriteRule ^blogs/show/34$ /blog/incentive-travel [L,R=301]
+    RewriteRule ^blogs/show/35$ /blog/event-planning [L,R=301]
+    RewriteRule ^blogs/show/36$ /blog/mice-trends [L,R=301]
+    RewriteRule ^blogs/show/37$ /blog/town-hall-meeting [L,R=301]
+    RewriteRule ^blogs/show/38$ /blog/town-hall-meeting-agenda [L,R=301]
+    RewriteRule ^blogs/show/39$ /blog/mice-services [L,R=301]
+
+    RewriteRule ^conferences-meeting$ /conference-organizer [L,R=301]
+    RewriteRule ^dayouts-service$ /team-outing [L,R=301]
+    RewriteRule ^wedding-service$ /wedding-planning [L,R=301]
+    RewriteRule ^travel-managment$ /travel-planner [L,R=301]
+    RewriteRule ^event-managment$ /event-management [L,R=301]
+    
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
