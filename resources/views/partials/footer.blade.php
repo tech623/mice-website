@@ -92,10 +92,10 @@
 </div>
 <div class="row" style="background-color: #323232;">
     <div class="col-md-12 copyright-text d-none d-sm-block">
-        MICE HOSPITALITY - A COMPREHENSIVE SALES SOLUTION PROVIDER
+        MICE HOSPITALITY - TRAVEL MANAGEMENT COMPANY
     </div>
     <div class="col-md-12 copyright-text d-sm-none d-block">
-        MICE HOSPITALITY <br/> A COMPREHENSIVE SALES SOLUTION PROVIDER
+        MICE HOSPITALITY <br/> TRAVEL MANAGEMENT COMPANY
     </div>
 
     <div class="col-md-12 mt-3 text-center copyright-provider">
