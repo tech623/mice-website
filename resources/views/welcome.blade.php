@@ -173,7 +173,8 @@
         </p>
     </div>-->
 </div> 
-<div class="row">
+
+{{--<div class="row">
     <div class="col-md-10 offset-md-1 frame-61-bg">
         <h3 class="text-center">
             Our partners
@@ -217,7 +218,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+
+
 
 <!--<div class="property-box">
     <div class="row">
