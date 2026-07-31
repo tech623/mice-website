@@ -219,7 +219,7 @@
     </div>
 </div>
 
-<div class="property-box">
+<!--<div class="property-box">
     <div class="row">
         <div class="col-md-10 offset-md-1 frame-47">
             <h3 class="text-center">
@@ -235,7 +235,7 @@
     </div>
     <div class="row">
         @include('website.blocks.service-block')
-    </div>
+    </div> -->
     <div class="row">
         <div class="col-md-10 offset-md-1 frame-61">
             <div class="card-header p-0 pt-1 blog-card-header">
