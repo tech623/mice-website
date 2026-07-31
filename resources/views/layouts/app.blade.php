@@ -338,10 +338,13 @@
                         <img src="{{asset('images/events-weddings-m.svg')}}" alt="" style="height: 20px; width:40px;" />
                         {{trans('content.wedding-service')}}
                     </span>
-                    <span class="navbar-text" onclick="redirectServicePage('hotels')">
-                        <img src="{{asset('images/hotel-owners-m.svg')}}" alt="" style="height: 20px; width:40px;" />
-                        Hotels
-                    </span>
+                   <!-- Hotels menu temporarily disabled -->
+<!--
+<span class="navbar-text" onclick="redirectServicePage('hotels')">
+    <img src="{{ asset('images/hotel-owners-m.svg') }}" alt="Hotels" style="height: 20px; width: 40px;">
+    Hotels
+</span>
+-->
                     <span class="navbar-text" onclick="redirectServicePage('hotel-owners')">
                         <img src="{{asset('images/pwu.svg')}}" alt="" style="height: 20px; width:40px;" />
                         Partner with us

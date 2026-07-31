@@ -61,6 +61,7 @@
                     </div>
                 </a>
             </div>
+           <!--
             <div class="col service-navbar-item {{ request()->is("hotels*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('hotels.index')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
@@ -70,7 +71,10 @@
                         <span>Hotels</span>
                     </div>
                 </a>
-            </div>            
+            </div>   
+            
+            -->
         </div>
     </div>
 </div>
+

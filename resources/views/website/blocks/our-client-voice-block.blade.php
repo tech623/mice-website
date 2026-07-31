@@ -47,11 +47,11 @@
         </div>
         @if(!request()->is("hotels*"))
           <div class="row justify-content-md-center justify-content-center">
-              <div class="col-md-auto cta-large">
+             <!-- <div class="col-md-auto cta-large">
                   <a href="{{route('hotels.index')}}" class="btn btn-viewhotel">
                       View Hotels
                   </a>
-              </div>
+              </div> -->
           </div>
         @endif
     </div>

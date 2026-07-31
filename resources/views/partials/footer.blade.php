@@ -36,7 +36,7 @@
             <div class="mb-4"></div>
             <li><a href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blogs</a></li>
             <div class="mb-4"></div>
-            <li><a href="{{route('hotels.index')}}">Hotels</a></li>
+           <!-- <li><a href="{{route('hotels.index')}}">Hotels</a></li> -->
         </ul>
     </div>
     <div class="col-6  d-flex justify-content-center d-sm-none">
@@ -84,11 +84,11 @@
             <li><a href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blogs</a></li>
         </ul>
     </div>
-    <div class="col-md-2 d-none d-sm-block">
+    <!--<div class="col-md-2 d-none d-sm-block">
         <ul class="list-unstyled mt-3 footer-menus">
             <li><a href="{{route('hotels.index')}}">Hotels</a></li>
         </ul>
-    </div>
+    </div> -->
 </div>
 <div class="row" style="background-color: #323232;">
     <div class="col-md-12 copyright-text d-none d-sm-block">
