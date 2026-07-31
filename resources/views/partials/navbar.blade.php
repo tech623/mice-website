@@ -1918,8 +1918,8 @@
                              <a class="dropdown-item" href="{{route('web-login.profile')}}">My Profile</a>
                              <div class="dropdown-divider"></div>
                         @else
-                            <a class="dropdown-item" href="javascript:void(0);"  data-toggle="modal" data-target="#registerModel">Sign Up</a>
-                            <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#loginModel">Login</a>
+                           <!-- <a class="dropdown-item" href="javascript:void(0);"  data-toggle="modal" data-target="#registerModel">Sign Up</a>
+                            <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#loginModel">Login</a> -->
                         @endif
                         <a class="dropdown-item" href="{{route('why-mice')}}">About Us</a>
                         <a class="dropdown-item" href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blog</a>
