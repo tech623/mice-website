@@ -164,15 +164,15 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-10 offset-md-1 section-content-5">
+   <!-- <div class="col-md-10 offset-md-1 section-content-5">
         <h3 class="text-center">
             We will help you grow your hotel business
         </h3>
         <p class="text-center">
             We offer a wealth of hospitality expertise coupled with extensive hotel operations knowledge, management contracts, event planning & execution of hotel projects and most importantly exclusive sales and marketing solutions to meet the hotel budget.
         </p>
-    </div>
-</div>
+    </div>-->
+</div> 
 <div class="row">
     <div class="col-md-10 offset-md-1 frame-61-bg">
         <h3 class="text-center">
