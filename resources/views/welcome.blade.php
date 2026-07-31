@@ -10,18 +10,19 @@
     <div class="col-lg-1 col-md-1"></div>
     <div class="col-lg-4 col-md-4 col-sm-12 col-12 align-items-center justify-content-center h-content-section">
         <h3>
-            For events you’d love. For hospitality you’d wish
+          For events you'd love. <br>
+For hospitality you'd wish.
         </h3>
         <p>
-            We love to put up the best of your life - <br />professional or personal. <span class="under-color">Every event, every time.</span>
+          Creating extraordinary experiences for every occasion from planning to execution. Because every successful event begins with <span class="under-color">#micetomeetyou</span>
         </p>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-6" style="padding-top: 35px;">
-        <img src="{{asset('images/home-1.png')}}" class="rounded" style="width: 100%; height:90%">
+        <img src="{{asset('images/Event Managements.jpg')}}" class="rounded" style="width: 100%; height:90%">
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-        <img src="{{asset('images/home-2.png')}}" class="rounded" style="margin-bottom: 10px; width: 100%; height:48%">
-        <img src="{{asset('images/home-3.png')}}" class="rounded" style="width: 100%;">
+        <img src="{{asset('images/Team Outing1.jpg')}}" class="rounded" style="margin-bottom: 10px; width: 100%; height:48%">
+        <img src="{{asset('images/Wedding.jpg')}}" class="rounded" style="width: 100%;">
     </div>
     <div class="col-lg-1 col-md-1"></div>
 </div>
