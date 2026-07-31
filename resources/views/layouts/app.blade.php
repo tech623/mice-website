@@ -509,11 +509,14 @@
                     <option value="Wedding">Wedding</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label class="input-label">*Dates</label>
-                <input type="date" id="q_from" class="form-control input-border" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
-                <input type="date" id="q_to" class="form-control input-border mt-2" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
-            </div>
+           <div class="form-group">
+    <label for="q_from" class="input-label">*Start Date</label>
+    <input type="date" id="q_from" class="form-control input-border" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
+</div>
+<div class="form-group">
+    <label for="q_to" class="input-label">End Date</label>
+    <input type="date" id="q_to" class="form-control input-border" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
+</div>
         </div>
         <div class="col-12">
             <p id="q_error" class="text-danger" style="display:none;"></p>
