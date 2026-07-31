@@ -475,8 +475,82 @@
                             </button>
                         </div>
                         <div class="modal-body">
+                            
+                            <form id="quote_form" onsubmit="return false;">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="input-label">*Name</label>
+                <input type="text" id="q_name" class="form-control input-border" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label class="input-label">Company</label>
+                <input type="text" id="q_company" class="form-control input-border" placeholder="Company Name">
+            </div>
+            <div class="form-group">
+                <label class="input-label">*Email</label>
+                <input type="email" id="q_email" class="form-control input-border" placeholder="Email Address">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="input-label">*Phone</label>
+                <input type="text" id="q_phone" class="form-control input-border" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <label class="input-label">*Event Type</label>
+                <select id="q_event" class="form-control input-border">
+                    <option value="">Select Event Type</option>
+                    <option value="Residential">Residential</option>
+                    <option value="Dayout">Dayout</option>
+                    <option value="Banquet">Banquet</option>
+                    <option value="Wedding">Wedding</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="input-label">*Dates</label>
+                <input type="date" id="q_from" class="form-control input-border" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
+                <input type="date" id="q_to" class="form-control input-border mt-2" min="{{\Carbon\Carbon::now()->format('Y-m-d')}}">
+            </div>
+        </div>
+        <div class="col-12">
+            <p id="q_error" class="text-danger" style="display:none;"></p>
+            <button type="button" class="btn btn-submit" onclick="sendQuoteToWhatsApp()">Send on WhatsApp</button>
+        </div>
+    </div>
+</form>
 
-                            <form method="post" id="enquiry_form">
+<script>
+function sendQuoteToWhatsApp() {
+    var name    = document.getElementById('q_name').value.trim();
+    var company = document.getElementById('q_company').value.trim();
+    var email   = document.getElementById('q_email').value.trim();
+    var phone   = document.getElementById('q_phone').value.trim();
+    var event   = document.getElementById('q_event').value;
+    var from    = document.getElementById('q_from').value;
+    var to      = document.getElementById('q_to').value;
+    var err     = document.getElementById('q_error');
+
+    if (!name || !email || !phone || !event || !from) {
+        err.textContent = 'Please fill Name, Email, Phone, Event Type and dates.';
+        err.style.display = 'block';
+        return;
+    }
+    err.style.display = 'none';
+
+    var msg = "New Quote Request%0A" +
+              "Name: " + encodeURIComponent(name) + "%0A" +
+              "Company: " + encodeURIComponent(company || '-') + "%0A" +
+              "Email: " + encodeURIComponent(email) + "%0A" +
+              "Phone: " + encodeURIComponent(phone) + "%0A" +
+              "Event Type: " + encodeURIComponent(event) + "%0A" +
+              "Dates: " + from + " to " + (to || from);
+
+    window.open("https://wa.me/918489832221?text=" + msg, "_blank");
+}
+</script>
+
+                           <!-- <form method="post" id="enquiry_form">
 
                                 <div class="row">
 
@@ -636,7 +710,7 @@
                                         <button type="submit" name="submit" class="btn btn-submit" id="submitGlobal"> Submit Inquiry &nbsp;&nbsp;<i class="fa fa-spinner fa-spin" id="spin" style="display: none;"></i></button>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>
