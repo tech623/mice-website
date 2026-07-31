@@ -1,4 +1,6 @@
 <!-- Only For Mobile -->
+
+<!--
 <div class="row d-flex d-sm-none">
     <form action="{{route('search-service')}}" method="GET" class="service-mobile-fixed">
         <div class="row service-mobile d-flex d-sm-none">
@@ -33,3 +35,4 @@
         </div>
     </form>
 </div>
+-->
