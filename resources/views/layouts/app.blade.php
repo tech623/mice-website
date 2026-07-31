@@ -502,12 +502,17 @@
             <div class="form-group">
                 <label class="input-label">*Event Type</label>
                 <select id="q_event" class="form-control input-border">
-                    <option value="">Select Event Type</option>
-                    <option value="Residential">Residential</option>
-                    <option value="Dayout">Dayout</option>
-                    <option value="Banquet">Banquet</option>
-                    <option value="Wedding">Wedding</option>
-                </select>
+    <option value="">Select Event Type</option>
+    <option value="Residential Conference">Residential Conference</option>
+    <option value="International Travel">International Travel</option>
+    <option value="Family Vacation">Family Vacation</option>
+    <option value="Day Outing">Day Outing</option>
+    <option value="Day Conference">Day Conference</option>
+    <option value="Wedding Planning">Wedding Planning</option>
+    <option value="Social Events">Social Events</option>
+    <option value="Event Management">Event Management</option>
+    <option value="Corporate Gifting">Corporate Gifting</option>
+</select>
             </div>
            <div class="form-group">
     <label for="q_from" class="input-label">*Start Date</label>
