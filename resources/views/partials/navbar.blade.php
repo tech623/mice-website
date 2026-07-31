@@ -1733,7 +1733,7 @@
             <img src="{{asset('images/newLogo.svg')}}" class="d-inline-block align-top c-logo" alt="" width="70%">
         </a>
     </div>
-    <div class="col-md-6 menu-search-bar d-none d-lg-block d-xl-block d-xl-none">
+    <!--<div class="col-md-6 menu-search-bar d-none d-lg-block d-xl-block d-xl-none">
         <?php $states = App\Models\Property::getStates();
         ?>
         <div class="banner-form-demo">
@@ -1811,7 +1811,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="location-input-section">
                         <label class="selectLocation" style="cursor: pointer;">Location <i class="fas fa-angle-down rotatel"></i></label>
                         <div class="input-group mb-3">
@@ -1891,8 +1891,8 @@
                 </div>
             </form>
         </div>
-    </div>
-    <div class="col-md-3 col-4">
+    </div> -->
+    <div class="col-md-9 col-4">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav ml-auto d-none d-sm-flex">
                 <li class="nav-item {{ request()->is("/*") ? "active" : "" }}" style="margin-right:25px">
