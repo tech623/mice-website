@@ -26,7 +26,6 @@ For hospitality you'd wish.
     </div>
     <div class="col-lg-1 col-md-1"></div>
 </div>
-
 <div class="row">
     <div class="col-md-10 offset-md-1 frame-62-bg mt-5">
         <h3 class="text-center">
@@ -37,47 +36,15 @@ For hospitality you'd wish.
         </p>
         <div class="row p-30">
             <div class="slider autoplay">
+                @for($i = 1; $i <= 33; $i++)
                 <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-1.svg')}}" style="height: 100px; width: 180px;" />
+                    <img src="{{asset('clients/our-client-'.$i.'.svg')}}" alt="Client {{$i}}" style="max-height: 100px; max-width: 180px; width: auto;" />
                 </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-2.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-3.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-4.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-5.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-6.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-7.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-8.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-9.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-10.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-11.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-12.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                        <img src="{{asset('clients/client-13.svg')}}" style="height: 100px; width: 180px;" />
-                </div>
+                @endfor
+            </div>
         </div>
     </div>
+</div>
 </div>
 </div>
 <!-- Our Client Section -->
