@@ -66,7 +66,7 @@ class BlogsController extends Controller
             $destinationPath = 'images/blogs/';
             $image->move($destinationPath, $imagename);
             //$submit['img_path'] = '/images/property/'.$imagename;
-            $submit['banner_image'] = 'https://www.micehospitality.com/images/blogs/'.$imagename;
+            $submit['banner_image'] = asset('images/blogs/'.$imagename);
             }
         $save = Blog::create($submit);
         return back()->with('success', 'Blog submitted successfully.');
@@ -139,7 +139,7 @@ class BlogsController extends Controller
             $destinationPath = 'images/blogs/';
             $image->move($destinationPath, $imagename);
             //$submit['img_path'] = '/images/property/'.$imagename;
-            $blog->banner_image = 'https://www.micehospitality.com/images/blogs/'.$imagename;
+           $blog->banner_image = asset('images/blogs/'.$imagename);
         }
         $blog->full_description = htmlentities($request->full_description);
         $blog->blog_slug = $request->blog_slug;
