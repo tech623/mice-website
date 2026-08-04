@@ -17,7 +17,7 @@
         </p>
     </div>
     <div class="col-lg-6 col-md-6">
-        <img src="{{asset('images/conference/image3.jpg')}}" class="rounded" alt="Conferences & meeting" id="slideImage" style="width: 100%; height: 85%;" />
+<img src="{{asset('images/conference/Corperate.jpg')}}?v=2" class="rounded" alt="Conferences & meeting" id="slideImage" style="width: 100%; height: 85%;" />
     </div>
     <div class="col-lg-1 col-md-1"></div>
 </div>
@@ -231,9 +231,8 @@
 <script>
     $(document).ready(function() {
         var images = [
-            "{{asset('images/conference/image3.jpg')}}"
-            , "{{asset('images/conference/image4.jpg')}}",
-            //"{{asset('images/conference/image2.jpg')}}",
+            "{{asset('images/conference/Corperate.jpg')}}",
+            "{{asset('images/conference/image4.jpg')}}",
             "{{asset('images/conference/image1.jpg')}}"
         ]; // Array of image URLs
         var currentImage = 0;
