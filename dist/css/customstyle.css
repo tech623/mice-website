@@ -3905,3 +3905,28 @@ font {
 
 .slick-list { overflow: hidden; }
 html, body { overflow-x: hidden; }
+
+.autoplay .slick-prev, .autoplay .slick-next {
+    z-index: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.autoplay .slick-prev, .autoplay .slick-next {
+    z-index: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+.autoplay .slick-prev { left: 5px; }
+.autoplay .slick-next { right: 5px; }
+.autoplay .slick-prev:before, .autoplay .slick-next:before {
+    color: #323232;
+    font-size: 24px;
+    opacity: 0.75;
+    content: '‹';
+}
+.autoplay .slick-next:before {
+    content: '›';
+}

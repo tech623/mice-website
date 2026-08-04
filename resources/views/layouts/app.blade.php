@@ -16,7 +16,7 @@
     <link rel="icon" type="image/x-icon" href="{{asset('images/favicon.ico')}}" />
     <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('dist/css/customstyle.css')}}?v=5" />
+    <link rel="stylesheet" href="{{asset('dist/css/customstyle.css')}}?v=8" />
 
     <link rel="stylesheet" href="{{asset('dist/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('dist/css/owl.theme.default.min.css')}}">
@@ -1232,6 +1232,7 @@ function sendQuoteToWhatsApp() {
             , slidesToScroll: 1
             , autoplay: true
             , autoplaySpeed: 1000
+            , arrows: true
             , responsive: [{
                 breakpoint: 500
                 , settings: {
