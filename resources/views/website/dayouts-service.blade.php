@@ -149,7 +149,8 @@
                 </div>
             </div>
             <br/>
-            <h3 class="mt-5">Out-Door Catering</h3>
+          <!-- 
+          <h3 class="mt-5">Out-Door Catering</h3>
             <p class="frame-service-text">
                 Good food unites all. And we are good at uniting all. Our trained team of F&B does a fabulous job at the hob and then serving them right - global or local cuisines, table services or pre-plated services. Corporate lunches, business brunches, lively lounges, anniversary celebrations - peppy parties, engaging entertainment, and finger-licking good food, try us and we promise to serve you the best menu and the right budgets.
             </p>
@@ -230,6 +231,8 @@
                     </div>
                 </div>
             </div>
+            -->
+            
             <div class="cta-large">
                 <button class="btn-contact-us btn  d-lg-block d-xl-block d-xl-none" data-toggle="modal" data-target="#myModalGlobal">
                     Inquire now
