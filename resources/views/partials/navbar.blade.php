@@ -1730,7 +1730,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top main-navigation row" style="border-bottom: 1px solid #F1F2ED;">
    <div class="col-md-3 col-8 d-flex align-items-center">
     <a class="navbar-brand navbarLogo mb-0" href="{{route('home')}}" style="flex-shrink:0;">
-        <img src="{{asset('images/mice-hospitality.gif')}}" class="c-logo" alt="" style="height:55px; width:auto;">
+        <img src="{{asset('images/mice-logo.gif')}}" class="c-logo" alt="" style="height:55px; width:auto;">
     </a>
   
 </div>
