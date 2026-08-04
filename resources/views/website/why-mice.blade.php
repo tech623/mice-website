@@ -116,7 +116,7 @@
                 <img src="{{asset('images/team/why-mice-img-1.png')}}" alt="Our service strengths" style="width: 100%; border-radius: 16px;" />
             </div>
         </div>
-
+<!--
         <div class="row why-mice-block-2 m-t80 d-none d-sm-flex">
             <div class="col-md-3">
                 <img src="{{asset('images/team/why-mice-img-2.png')}}" class="why-mice-img-2" alt="Our service strengths" srcset="">
@@ -133,7 +133,12 @@
                 </div>
             </div>
         </div>
+        
+        -->
+        
         <!-- For Mobile View -->
+        
+        <!--
         <div class="row why-mice-block-2 m-t80 d-sm-none d-block">
             <div class="col-12 d-flex align-items-center">
                 <div class="why-mice-content">
@@ -149,8 +154,14 @@
                 <img src="{{asset('images/team/why-mice-img-2.png')}}" class="why-mice-img-2" alt="Our service strengths" srcset="">
             </div>
         </div>
+         -->
+         
     </div>
+   
+    
 </div>
+
+
 <div class="row m-t60 our-mission-block">
     <div class="col-md-10 offset-md-1">
         <div class="our-mission">
