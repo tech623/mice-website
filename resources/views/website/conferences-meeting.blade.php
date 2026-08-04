@@ -201,7 +201,10 @@
 </div>
 
 <div class="highlight-box">
-    <div class="row">
+   
+ <!--  
+ <div class="row">
+        
         <div class="col-md-10 offset-md-1 frame-80 mb-5">
             <h3>
                 Closest to your search of choice
@@ -211,7 +214,8 @@
     <div class="row">
         @include('website.blocks.service-block')
     </div>
-    <div class="row m-t120">
+    -->
+    <div class="row m-t60">
         @include('website.blocks.our-client-voice-block')
     </div>
 </div>

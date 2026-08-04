@@ -166,7 +166,8 @@
     </div>
 </div>
 <div class="highlight-box m-t80">
-    <div class="row">
+   <!--
+   <div class="row">
         <div class="col-md-10 offset-md-1 frame-80 mb-5">
             <h3>
                 Closest to your search of choice
@@ -175,11 +176,13 @@
     </div>
     <div class="row">
         @include('website.blocks.service-block')
-    </div>
+    </div> 
+    -->
     <div class="row m-t120">
         @include('website.blocks.our-client-voice-block')
     </div>
 </div>
+
 
 @include('website.blocks.customer-reviews-block')
 @include('website.blocks.service-blog-block')
