@@ -51,7 +51,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col service-navbar-item {{ request()->is("hotel-owners*") ? "service-navbar-active" : "" }}">
+         <!--   <div class="col service-navbar-item {{ request()->is("hotel-owners*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('hotel-owners')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
                         <img src="{{asset('images/pwu.svg')}}" alt="" class="service-log" />
@@ -61,6 +61,7 @@
                     </div>
                 </a>
             </div>
+            -->
            <!--
             <div class="col service-navbar-item {{ request()->is("hotels*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('hotels.index')}}" class="service-navbar-menu">

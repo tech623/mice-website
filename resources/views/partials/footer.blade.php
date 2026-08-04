@@ -51,7 +51,7 @@
             <div class="mb-4"></div>
             <li><a href="{{route('wedding-service')}}">{{trans('content.wedding-service')}}</a></li>
             <div class="mb-4"></div>
-            <li><a href="{{route('partner-with-us')}}">Partner with us</a></li>            
+                       
         </ul>
     </div>
 
@@ -79,7 +79,7 @@
         <ul class="list-unstyled mt-3 footer-menus">
             <li><a href="{{route('wedding-service')}}">{{trans('content.wedding-service')}}</a></li>
             <div class="mb-4"></div>
-            <li><a href="{{route('partner-with-us')}}">Partner with us</a></li>
+            
             <div class="mb-4"></div>
             <li><a href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blogs</a></li>
         </ul>
