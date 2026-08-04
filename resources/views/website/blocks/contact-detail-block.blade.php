@@ -6,8 +6,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="mb-3" width="49" height="48" viewBox="0 0 49 48" fill="none">
                     <path d="M38.9445 30.5352L33.8645 29.9552C32.6445 29.8152 31.4445 30.2352 30.5845 31.0952L26.9045 34.7752C21.2445 31.8952 16.6045 27.2752 13.7245 21.5952L17.4245 17.8952C18.2845 17.0352 18.7045 15.8352 18.5645 14.6152L17.9845 9.57516C17.7445 7.55516 16.0445 6.03516 14.0045 6.03516H10.5445C8.28446 6.03516 6.40446 7.91516 6.54446 10.1752C7.60446 27.2552 21.2645 40.8952 38.3245 41.9552C40.5845 42.0952 42.4645 40.2152 42.4645 37.9552V34.4952C42.4845 32.4752 40.9645 30.7752 38.9445 30.5352Z" fill="#323232" />
                 </svg>
-                <p class="mb-2 contact-us">(+91) 9611128350 | 8884433113 | 7798900991</p>
-                <span>info@micehospitality.com</span>
+                <p class="mb-2 contact-us"><a href="tel:+919820518090" style="color: inherit; text-decoration: none;">+91 98205 18090</a></p>
+<a href="mailto:info@micehospitality.com" style="color: inherit; text-decoration: none;">info@micehospitality.com</a>
             </div>
         </div>
     </div>
