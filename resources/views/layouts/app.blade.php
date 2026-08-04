@@ -346,11 +346,13 @@
     <img src="{{ asset('images/hotel-owners-m.svg') }}" alt="Hotels" style="height: 20px; width: 40px;">
     Hotels
 </span>
--->
+
                     <span class="navbar-text" onclick="redirectServicePage('hotel-owners')">
                         <img src="{{asset('images/pwu.svg')}}" alt="" style="height: 20px; width:40px;" />
                         Partner with us
                     </span>
+                    -->
+                    
                 </div>
             </div>
         </div>
