@@ -16,7 +16,7 @@
     <link rel="icon" type="image/x-icon" href="{{asset('images/favicon.ico')}}" />
     <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('dist/css/customstyle.css')}}?v={{filemtime(public_path('dist/css/customstyle.css'))}}" />
+    <link rel="stylesheet" href="{{asset('dist/css/customstyle.css')}}?v=5" />
 
     <link rel="stylesheet" href="{{asset('dist/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('dist/css/owl.theme.default.min.css')}}">

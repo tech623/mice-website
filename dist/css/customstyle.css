@@ -1412,6 +1412,7 @@ font {
 .slider {
     width: 100%;
     margin: 0px auto;
+    overflow: hidden;
 }
 
 .video-slider .slick-slide {
@@ -3901,3 +3902,6 @@ font {
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #323232;
 }
+
+.slick-list { overflow: hidden; }
+html, body { overflow-x: hidden; }
