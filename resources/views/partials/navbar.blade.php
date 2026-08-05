@@ -1925,17 +1925,20 @@
         </li>
     </ul>
 
-    <div class="col-md-2 d-none d-sm-flex align-items-center justify-content-end ml-auto" style="gap:10px;">
-        <a href="https://www.facebook.com/MiceHospitality16" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
-            <i class="fab fa-facebook-f" style="font-size:14px;"></i>
-        </a>
-        <a href="https://www.instagram.com/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
-            <i class="fab fa-instagram" style="font-size:14px;"></i>
-        </a>
-        <a href="https://www.linkedin.com/company/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
-            <i class="fab fa-linkedin-in" style="font-size:14px;"></i>
-        </a>
-    </div>
+<div class="col-md-2 d-none d-sm-flex align-items-center justify-content-end ml-auto" style="gap:10px;">
+    <a href="https://www.facebook.com/MiceHospitality16" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+        <i class="fab fa-facebook-f" style="font-size:14px;"></i>
+    </a>
+    <a href="https://www.instagram.com/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+        <i class="fab fa-instagram" style="font-size:14px;"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+        <i class="fab fa-linkedin-in" style="font-size:14px;"></i>
+    </a>
+    <a href="https://wa.me/919611804368" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+        <i class="fab fa-whatsapp" style="font-size:14px;"></i>
+    </a>
+</div>
 
                 
                 

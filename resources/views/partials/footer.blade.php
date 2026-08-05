@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me/+919686860137" target="_blank">
+                    <a href="https://wa.me/+919611804368" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                 </li>
