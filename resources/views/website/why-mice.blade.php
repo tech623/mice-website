@@ -16,37 +16,37 @@
         <div class="row mb-5 mt-4 under-color d-none d-sm-flex" style="padding-bottom:10px">
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('conferences-meeting')}}">
-                    <img src="{{asset('images/a.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 36.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('event-managment')}}">
-                    <img src="{{asset('images/event-management.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 35.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('dayouts-service')}}">
-                    <img src="{{asset('images/day-outs.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 37.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('travel-managment')}}">
-                    <img src="{{asset('images/travel-management.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 38.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('tour-handling')}}">
-                    <img src="{{asset('images/tour-handling.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 39.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex borderRight">
                 <a class="" href="{{route('wedding-service')}}">
-                    <img src="{{asset('images/events-weddings.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 40.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
             <div class="col justify-content-center d-flex">
                 <a class="" href="{{route('partner-with-us')}}">
-                    <img src="{{asset('images/hotel-owners.svg')}}" alt=""   class="why-service-img" />
+                    <img src="{{asset('images/Frame 41.svg')}}" alt=""   class="why-service-img" />
                 </a>
             </div>
         </div>
