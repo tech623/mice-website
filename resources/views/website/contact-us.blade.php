@@ -14,8 +14,9 @@
                     </div>
                     <div>
                         <h4 style="color:#fff; margin:0;">Call</h4>
-                        <a href="tel:08023341122" style="color:#ddd; text-decoration:none;">080 2334 1122</a><br>
-                        <a href="tel:+919820518090" style="color:#ddd; text-decoration:none;">+91 98205 18090</a>
+                        <a href="tel:+919820518090" style="color:#ddd; text-decoration:none;">+91 98205 18090</a><br>
+                        <a href="tel:08023341122" style="color:#ddd; text-decoration:none;">080 2334 1122</a>
+                      
                     </div>
                 </div>
                 <div style="background:#4B296B; border-radius:16px; padding:24px; color:#fff; margin-bottom:20px; display:flex; align-items:center; gap:20px; box-shadow:0 4px 20px rgba(0,0,0,0.08);">
