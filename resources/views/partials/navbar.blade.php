@@ -1895,21 +1895,48 @@
             </form>
         </div>
     </div> -->
-    <div class="col-md-9 col-4">
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav ml-auto d-none d-sm-flex">
-                <li class="nav-item {{ request()->is("/*") ? "active" : "" }}" style="margin-right:25px">
-                    <a class="nav-link" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item {{ request()->is('why-mice*') ? 'active' : '' }}" style="margin-right:25px">
-    <a class="nav-link" href="{{route('why-mice')}}">About Us</a>
-</li>
-<li class="nav-item {{ request()->is('blogs*') ? 'active' : '' }}" style="margin-right:25px">
-    <a class="nav-link" href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blog</a>
-</li>
-<li class="nav-item {{ request()->is('contact-us*') ? 'active' : '' }}">
-    <a class="nav-link" href="{{route('contact-us')}}">Contact Us</a>
-</li>
+  
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);">
+        <ul class="navbar-nav d-none d-sm-flex align-items-center" style="margin:0;">
+            <li class="nav-item {{ request()->is("/*") ? "active" : "" }}" style="margin-right:25px">
+                <a class="nav-link" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item {{ request()->is('why-mice*') ? 'active' : '' }}" style="margin-right:25px">
+                <a class="nav-link" href="{{route('why-mice')}}">About Us</a>
+            </li>
+            <li class="nav-item {{ request()->is('blogs*') ? 'active' : '' }}" style="margin-right:25px">
+                <a class="nav-link" href="{{route('blogs.index',__('pagination.defaultPage'))}}">Blog</a>
+            </li>
+            <li class="nav-item {{ request()->is('contact-us*') ? 'active' : '' }}">
+                <a class="nav-link" href="{{route('contact-us')}}">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="navbar-nav d-flex d-sm-none" style="margin-left:auto;">
+        <li class="nav-item" style="border:1px solid #F1F2ED; border-radius:100px">
+            <a class="nav-link" href="javascript:void(0)" id="openNavBtn" style="text-align:center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.33333 6.66667C2.875 6.66667 2.5 6.29167 2.5 5.83333C2.5 5.375 2.875 5 3.33333 5H16.6667C17.125 5 17.5 5.375 17.5 5.83333C17.5 6.29167 17.125 6.66667 16.6667 6.66667H3.33333ZM3.33333 10.8333H16.6667C17.125 10.8333 17.5 10.4583 17.5 10C17.5 9.54167 17.125 9.16667 16.6667 9.16667H3.33333C2.875 9.16667 2.5 9.54167 2.5 10C2.5 10.4583 2.875 10.8333 3.33333 10.8333ZM3.33333 15H16.6667C17.125 15 17.5 14.625 17.5 14.1667C17.5 13.7083 17.125 13.3333 16.6667 13.3333H3.33333C2.875 13.3333 2.5 13.7083 2.5 14.1667C2.5 14.625 2.875 15 3.33333 15Z" fill="#323232" />
+                </svg>
+            </a>
+        </li>
+    </ul>
+
+    <div class="col-md-2 d-none d-sm-flex align-items-center justify-content-end ml-auto" style="gap:10px;">
+        <a href="https://www.facebook.com/MiceHospitality16" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+            <i class="fab fa-facebook-f" style="font-size:14px;"></i>
+        </a>
+        <a href="https://www.instagram.com/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+            <i class="fab fa-instagram" style="font-size:14px;"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/micehospitalityservices/" target="_blank" style="background:#F47E27; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; color:#fff;">
+            <i class="fab fa-linkedin-in" style="font-size:14px;"></i>
+        </a>
+    </div>
+
                 
                 
             <!--
