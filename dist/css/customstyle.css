@@ -1689,8 +1689,25 @@ font {
     .frame-3466 {
         /* padding-top: 30px; */
         margin-top: 2rem;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
-
+    .frame-62-bg {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    #navigationBar.navigation {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        overflow-x: hidden;
+    }
+    #navigationBar .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     .h-content-section h3 {
         font-size: 24px;
     }
@@ -3929,4 +3946,12 @@ html, body { overflow-x: hidden; }
 }
 .autoplay .slick-next:before {
     content: '›';
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow-x: hidden;
+    }
 }
