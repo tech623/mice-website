@@ -4,7 +4,7 @@
             <div class="col service-navbar-item {{ request()->is("conference-organizer*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('conferences-meeting')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
-                        <img src="{{asset('images/Frame 36.svg')}}" alt="" class="service-log" />
+                        <img src="{{asset('images/Conference.svg')}}" alt="" class="service-log" />
                     </div>
                     <div class="d-flex justify-content-center  mt-1">
                         <span>{{trans('content.conferences-meeting')}}</span>
@@ -14,7 +14,7 @@
             <div class="col service-navbar-item {{ request()->is("team-outing*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('dayouts-service')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
-                        <img src="{{asset('images/Frame 37.svg')}}" alt="" class="service-log" />
+                        <img src="{{asset('images/team.svg')}}" alt="" class="service-log" />
                     </div>
                     <div class="d-flex justify-content-center mt-1">
                         <span>{{trans('content.day-outs')}}</span>
@@ -24,7 +24,7 @@
             <div class="col service-navbar-item {{ request()->is("wedding-planning*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('wedding-service')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
-                        <img src="{{asset('images/Frame 40.svg')}}" alt="" class="service-log" />
+                        <img src="{{asset('images/travel.svg')}}" alt="" class="service-log" />
                     </div>
                     <div class="d-flex justify-content-center mt-1">
                         <span>{{trans('content.wedding-service')}}</span>
@@ -34,7 +34,7 @@
             <div class="col service-navbar-item {{ request()->is("event-management*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('event-managment')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
-                        <img src="{{asset('images/Frame 35.svg')}}" alt="" class="service-log" />
+                        <img src="{{asset('images/Event.svg')}}" alt="" class="service-log" />
                     </div>
                     <div class="d-flex justify-content-center mt-1">
                         <span>{{trans('content.event-management')}}</span>
@@ -44,7 +44,7 @@
             <div class="col service-navbar-item {{ request()->is("travel-planner*") ? "service-navbar-active" : "" }}">
                 <a href="{{route('travel-managment')}}" class="service-navbar-menu">
                     <div class="d-flex justify-content-center">
-                        <img src="{{asset('images/Frame 38.svg')}}" alt="" class="service-log" />
+                        <img src="{{asset('images/wedding.svg')}}" alt="" class="service-log" />
                     </div>
                     <div class="d-flex justify-content-center mt-1">
                         <span>{{trans('content.travel-management')}}</span>

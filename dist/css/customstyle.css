@@ -422,14 +422,14 @@ font {
 /* .main-navigation .navbar-nav .show>.nav-link */
     {
     font-weight: 700;
-    border-bottom: 2px solid #FFC91C;
-    color: #592F74 !important;
+    border-bottom: 2px solid #f47e27;
+    color: #002633 !important;
     display: inline-block;
 }
 
 .main-navigation .navbar-nav .nav-link:hover {
     font-weight: 700;
-    color: #592F74 !important;
+    color: #002633 !important;
 }
 
 .main-navigation .navbar-nav .nav-link {
